@@ -1,2 +1,2 @@
 # Project_Movie
-Team "Faster Hands"
+Team "Fast Hands"
