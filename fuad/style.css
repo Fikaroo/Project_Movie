@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Mobile */
+@media (min-width: 320px) and (max-width: 991px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        font-family: Roboto;
+    }
+
+    .main {
+        background: #9DC9C8;
+        padding: 10vw;
+    }
+
+
+    .start-date-header h1 {
+                /* Начало курса — 8 сентября */
+        width: 60vw;
+        
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7vw;
+        line-height: 101.38%;
+        
+        /* or 26px */
+
+        color: #000000;
+    }
+
+    .start-date-main p {
+        /* Стоимость */
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        line-height: 101.38%;
+        /* or 12px */
+    }
+    
+    .start-date-main span {
+        /* 3900 руб. */
+        display: block;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10vw;
+        line-height: 101.38%;
+        /* or 38px */
+
+        color: #000000;
+    }
+
+    .start-date-footer {
+        display: flex;
+    }
+
+    .start-date-footer-box {
+        padding-right: 7vw;
+    }
+    
+    .start-date-footer-box p span {
+        display: block;
+
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        line-height: 101.38%;
+
+        color: #000000;
+
+    }
+    
+    .start-date-footer-box p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.6vw;
+        line-height: 101.38%;
+        /* or 10px */
+        padding-right: 4vw;
+        color: #000000;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        background-color: #000000;
+        padding-left: 12vw;
+        padding-top: 7vw;
+        padding-bottom: 3vw;
+    }
+
+    .footer-logo-social {
+        margin-bottom: 12vw;
+    }
+    
+    .footer-logo-social .logo {
+        margin-bottom: 3vw;
+    }
+
+    .footer-logo-social .logo img{
+        width: 15vw;
+    }
+    
+
+    .footer-logo-social .social a img{
+        width: 4vw;
+        padding-right: 2vw;
+    }
+
+    .contact {
+        margin-bottom: 12vw;
+    }
+
+    .contact p img {
+        width: 3vw;
+    }
+
+    .contact p{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3vw;
+        line-height: 101.38%;
+        /* or 12px */
+
+        color: #FFFFFF;
+
+    }
+
+    .corp {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5vw;
+        line-height: 101.38%;
+        /* or 10px */
+
+        color: #FFFFFF;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 992px) and (max-width: 1279px) {
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .start-date-main p span {
+        display: block;
+    }
+
+    .start-date-footer-box p span {
+        display: block;
+    }
+}
+
+/* Desktop */
+@media (min-width:  1280px) {
+    
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .start-date-main p span {
+        display: block;
+    }
+
+    .start-date-footer-box p span {
+        display: block;
+    }
+}
+
