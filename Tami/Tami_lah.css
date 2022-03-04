@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.kurs_vaxt{
+    display: flex;
+}
+.kurs_vaxt:first-child{
+    margin-right: 11.6px;
+}
+.kurs_vaxt:nth-child(2){
+    margin-right: 11.6px;
+}
