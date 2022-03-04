@@ -2,7 +2,7 @@
 Team "Fast Hands"
 
 Members :
-Tamerlan Aliyev
-Ali Aliquliyev
-Fidan Isayeva
+Tamerlan Aliyev,
+Ali Aliquliyev,
+Fidan Isayeva,
 Fuad Bayramov ( Team Leader )
