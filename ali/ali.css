@@ -15,26 +15,107 @@
     } 
 
     .p-kurs{
-        display: flex;
-        flex-wrap: wrap;
+        display: block;
     }   
 
-    .p-kurs-title{
+    .p-kurs-title h1{
         padding-top: 22.5vw;
-        padding-left: 9vw;
+        padding-left: 15vw;
         margin-bottom: 9.5vw;
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
-        font-size: 3.5vw;
+        font-size: 7vw;
         line-height: 101.38%;
         /* or 26px */
         color: #000000;
     }
 
+    .p-kurs-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p-kurs-infos{
+        margin-bottom: 6.5vw;
+        background: #FFFFFF;
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 7.5%;
+        /* width: 50vw;
+        height: 41vw; */
+    }
+
+    .p-kurs-images img{
+        width: 50vw;
+        height: 20vw;
+        /* border-radius: 7.5%; */
+    }
+
+    .p-kurs-infos h1{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.7vw;
+        line-height: 130%;
+        /* identical to box height, or 18px */
+        color: #000000;
+
+    }
+    .p-kurs-infos p{
     
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3.2vw;
+        line-height: 130%;
+        color: #000000;
+    }
 
+    .insan{
+        background-color:  #EFEFEF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .insan-title h1{
+        padding-top:12vw ;
+        margin-bottom: 6vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 7vw;
+        line-height: 101.38%;
+        /* or 26px */
+        color: #000000;
+    }
 
+    .insan-info{
+        background-color: #000;
+        border-radius: 10%;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .insan-info-text p{
+        font-size: 2.5vw;
+        line-height: 150%;
+        /* color: #000000; */
+        width: 60vw;
+    }
+
+    .insan-info-in{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .insan-info-in-photo img{
+        width: 21vw ;
+        height: 22hw ;
+    }
 
 }
 
