@@ -15,22 +15,24 @@
     } 
 
     .p-kurs{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
     }   
 
     .p-kurs-title{
-        width: 26.375em;
-        padding-top: 5.3em;
-        padding-left: 2.125em;
-        margin-bottom: 35.66px;
+        padding-top: 22.5vw;
+        padding-left: 9vw;
+        margin-bottom: 9.5vw;
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
-        font-size: 26px;
+        font-size: 3.5vw;
         line-height: 101.38%;
         /* or 26px */
         color: #000000;
     }
+
+    
 
 
 
