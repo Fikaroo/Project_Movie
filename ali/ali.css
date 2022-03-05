@@ -92,30 +92,54 @@
 
     .insan-info{
         background-color: #000;
-        border-radius: 10%;
+        border-radius: 7%;
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
+        width: 80vw;
+    }
+
+    .insan-info-text{
+        width: 65vw;
     }
 
     .insan-info-text p{
         font-size: 2.5vw;
         line-height: 150%;
         /* color: #000000; */
-        width: 60vw;
     }
 
     .insan-info-in{
         display: flex;
-        justify-content: center;
-        
+        justify-content: space-between;
+
     }
 
     .insan-info-in-photo img{
         width: 21vw ;
         height: 22hw ;
+        margin-top: 5.5vw;
     }
+
+    .insan-info-in-name h1{
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 3.7vw;
+        line-height: 101.38%;
+
+        padding-top: 10.5vw;
+        margin-bottom:3vw ;
+        /* color: #000000; */
+    }
+    .insan-info-in-name img{
+        width:4vw ;
+        height:4.5vw ;
+
+    }
+
 
 }
 
