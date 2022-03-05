@@ -27,7 +27,6 @@
         font-weight: bold;
         font-size: 7vw;
         line-height: 101.38%;
-        /* or 26px */
         color: #000000;
     }
 
@@ -48,7 +47,6 @@
     .p-kurs-images img{
         width: 50vw;
         height: 20vw;
-        /* border-radius: 7.5%; */
     }
 
     .p-kurs-infos h1{
@@ -57,7 +55,6 @@
         font-weight: bold;
         font-size: 3.7vw;
         line-height: 130%;
-        /* identical to box height, or 18px */
         color: #000000;
 
     }
@@ -86,7 +83,6 @@
         font-weight: bold;
         font-size: 7vw;
         line-height: 101.38%;
-        /* or 26px */
         color: #000000;
     }
 
@@ -96,7 +92,7 @@
         color: #FFFFFF;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
         width: 80vw;
     }
@@ -113,7 +109,7 @@
 
     .insan-info-in{
         display: flex;
-        justify-content: space-between;
+    
 
     }
 
@@ -137,7 +133,6 @@
     .insan-info-in-name img{
         width:4vw ;
         height:4.5vw ;
-
     }
 
 
