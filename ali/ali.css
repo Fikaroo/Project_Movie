@@ -75,6 +75,10 @@
         align-items: center;
     }
     
+    .insan-title{
+        margin-left: -18vw;
+    }
+    
     .insan-title h1{
         padding-top:12vw ;
         margin-bottom: 6vw;
@@ -87,24 +91,25 @@
     }
 
     .insan-info{
-        background-color: #000;
+        background-color: #FFFFFF;
         border-radius: 7%;
-        color: #FFFFFF;
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
         justify-content: center;
-        width: 80vw;
+        width: 82.5vw;
     }
 
     .insan-info-text{
         width: 65vw;
+        padding-top: 5vw;
+
     }
 
     .insan-info-text p{
         font-size: 2.5vw;
         line-height: 150%;
-        /* color: #000000; */
+        color: #000000;
     }
 
     .insan-info-in{
@@ -119,6 +124,10 @@
         margin-top: 5.5vw;
     }
 
+    .insan-info-in{
+        margin-left: -9vw;
+    }
+
     .insan-info-in-name h1{
         font-family: Roboto Slab;
         font-style: normal;
@@ -127,8 +136,9 @@
         line-height: 101.38%;
 
         padding-top: 10.5vw;
+        padding-right: 3.5vw;
         margin-bottom:3vw ;
-        /* color: #000000; */
+        color: #000000;
     }
     .insan-info-in-name img{
         width:4vw ;
