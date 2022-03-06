@@ -9,129 +9,117 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    
     body {
         font-family: roboto;
     }
-
-    .wrapper {
+    .wrapper{
         padding-left: 9vw;
         padding-top: 9vw;
     }
-
-    .format-main p span {
+    .format-main p span{ 
         display: block;
         color: #1E4681;
-        font-style: normal;
+         font-style: normal;
         font-weight: bold;
-        font-size: 3vw;
-
-
+        font-size:3vw;
+       
+ 
     }
-
-    .format-header h1 {
+    .format-header h1{
         font-size: 4vw;
     }
 
 
-    .format-main {
+    .format-main{
         padding-right: 40vw;
     }
 
-    .format-main p {
-        font-size: 1.3vw;
-        padding-top: 8vw;
-
-
+    .format-main p{
+    font-size: 1.3vw;    
+    padding-top: 8vw;
+    
+    
     }
-
-    .bilik h1 {
-        font-family: roboto slab;
-        font-size: 6vw;
-        padding-top: 18vw;
-        padding-bottom: 8vw;
+    .bilik h1{
+    font-family: roboto slab;
+    font-size: 6vw;
+    padding-top: 18vw; 
+    padding-bottom: 8vw;
     }
-
-    .format-header h1 {
-        font-family: roboto slab;
-        font-size: 6vw;
+    .format-header h1{
+    font-family: roboto slab;
+    font-size: 6vw;
     }
-
-    .bilik ul {
-        padding-left: 6vw;
+   
+    .bilik ul{
+       padding-left: 6vw;
         font-size: 2.5vw;
     }
 
 }
-
 /* Tablet */
 @media (min-width: 992px) and (max-width: 1279px) {
-    * {
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-
-    body {
-        font-family: roboto;
+    
+    body{
+    font-family: roboto;
     }
-
-    .wrapper {
+    .wrapper{
         padding-left: 9vw;
         padding-top: 9vw;
     }
-
-    .format-header h1 {
-        font-size: 4vw;
-    }
-
-    .format-main p span {
+    .format-main p span{ 
         display: block;
         color: #1E4681;
-        font-style: normal;
+         font-style: normal;
         font-weight: bold;
-        font-size: 1.9vw;
+        font-size:1.9vw;
     }
-
-    .format-main {
+    .format-main{
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
     }
-
-    .format-main-text {
-        width: 28vw;
+    .format-main-text p{
+    font-size: 1.4vw;    
+    padding-top: 4vw;
+    padding-right: 3vw;
+     }
+     
+     }
+     .format-main-text {
+         width: 28vw;
+     }
+    
+    .bilik h1{
+    font-family: roboto slab;
+    font-size: 3.8vw;
+    padding-top: 18vw; 
+    padding-bottom: 5vw;
     }
-
-    .format-main-text p {
-        font-size: 1.4vw;
-        padding-top: 4vw;
-        padding-right: 7vw;
-        
+    .format-header h1{
+    font-family: roboto slab;
+    font-size: 3.8vw;
+    padding-bottom: 5vw;
     }
-
-    .format-main-text-mid {
-        /* padding-right: 8vw; */
-    }
-
-
-    .bilik h1 {
-        font-family: roboto slab;
-        font-size: 3.8vw;
-        padding-top: 18vw;
-        padding-bottom: 5vw;
-    }
-
-    .format-header h1 {
-        font-family: roboto slab;
-        font-size: 3.8vw;
-        padding-bottom: 5vw;
-    }
-
-    .bilik ul {
-        padding-left: 3vw;
+   
+    .bilik ul{
+       padding-left: 3vw;
         font-size: 1.5vw;
+        width: 39vw;
+        height: 39vw;
+     
     }
 }
 
 /* Desktop */
-@media (min-width: 1280px) {}
+@media (min-width:  1280px) {
+
+}
+
+
