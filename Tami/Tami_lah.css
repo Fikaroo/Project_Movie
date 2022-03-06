@@ -1,15 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@media screen and (min-width: 320px) and (max-width: 991px) {
+body {
+  font-family: Roboto;
+}
+@media screen and (min-width: 320px) and (max-width: 992px) {
   * {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  section {
+  .footer_img_kurs{
+    display: none;
+  }
+  .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-left: 9vw;
+    padding-top: 9vw;
   }
   .logo_mobile {
-    margin: 36px 0 44.6px 35px;
+    margin-bottom: 10vw;
   }
   .logo_mobile img {
     width: 13.8vw;
@@ -17,41 +26,220 @@
   }
   .course_date {
     display: flex;
-    
+    margin-bottom: 8.6px;
   }
-  .course_date img {
-    width: 2.7vw;
-    height: 2vh;
-  }
+
   .course_date p {
     width: 16vw;
-    font-size: 0.6em;
+    font-size: 2.7vw;
   }
-  .course_date {
-    margin-right: 3.7px;
+
+  .time_logo {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .time_img {
-    margin-left: 11.6px;
+  .time_logo img {
+    width: 2vw;
     margin-right: 4.6px;
+  }
+  .header {
+    margin-bottom: 8px;
+  }
+  .kino_header h1 {
+    font-family: Roboto Slab;
+    font-size: 9.8vw;
+    font-weight: 700;
+  }
+  .kino_header p {
+    font-size: 2.6vw;
+    width: 56vw;
+  }
+  .kino_header {
+    margin-bottom: 31px;
   }
   .producer_img {
     display: flex;
     justify-content: flex-end;
     margin-right: 32px;
+    margin-bottom: 48px;
   }
   .producer_img img {
     width: 37.7vw;
   }
-  .p_header {
+  .outhor {
+    background: #1e4681;
+    color: white;
+    width: 60vw;
+    margin-bottom: 75px;
+  }
+  .comment {
+    padding: 9px 12px 7px;
+    font-size: 2.7vw;
+  }
+  .outhor_name {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .header_kurs h1 {
+    width: 45.3vw;
+    font-size: 7vw;
+  }
+  .header_kurs {
+    margin-bottom: 8.4px;
+  }
+  .main_info_kurs p {
+    width: 82vw;
+    font-size: 3.2vw;
+  }
+  .main_img_kurs {
+    display: flex;
+    justify-content: center;
+  }
+  .operator_img {
+    width: 39vw;
+  }
+  .footer_info_time {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer_info_kurs p {
+    width: 23vw;
+    font-size: 2.6vw;
+    margin-right: 48px;
+  }
+  .f_i_p {
+    margin-bottom: 34px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 8.3vw;
+    padding-top: 8.3vw;
+  }
+  .logo_mobile {
+    margin-bottom: 10vw;
+  }
+  .logo_mobile img {
+    width: 7.6vw;
+  }
+  .course_date {
+    display: flex;
+    margin-bottom: 8.6px;
+  }
+  .course_date p {
+    width: 16vw;
+    font-size: 1.3vw;
+  }
+
+  .time_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .time_logo img {
+    width: 1.2vw;
+    margin-right: 4.6px;
+  }
+  .header {
+    margin-bottom: 8px;
+  }
+  .kino_main {
+    display: flex;
+  }
+  .kino_header h1 {
     font-family: Roboto Slab;
-    font-size: 37px;
+    font-size: 4.7vw;
     font-weight: 700;
-    width: 77.8vw;
+    width: 43vw;
+    margin-bottom: 10px;
+  }
+  .kino_header p {
+    font-size: 1.3vw;
+    width: 30vw;
+  }
+  .kino_header {
+    margin-bottom: 31px;
+    margin-right: 10vw;
+  }
+  .producer_img {
+    margin-right: 142px;
+    margin-bottom: 50px;
+  }
+  .producer_img img {
+    width: 21vw;
+  }
+  .outhor_div {
+    display: flex;
+    justify-content: center;
   }
   .outhor {
     background: #1e4681;
+    color: white;
+    width: 32vw;
+    padding: 11px 15px 7px;
+    margin-bottom: 75px;
+  }
+
+  .comment p {
+    margin-bottom: 10px;
+    font-size: 1.7vw;
+  }
+
+  .outhor_name {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .header_kurs h1 {
+    width: 24vw;
+    font-size: 3.6vw;
+  }
+  .header_kurs {
+    margin-bottom: 20px;
+  }
+  .main_kurs{
+    display: flex;
+  }
+  .main_info_kurs{
+    width: 44vw;
+    margin-right: 110px;
+    margin-bottom: 50px;
+  }
+  .main_info_kurs p{
+    font-size: 1.8vw;
+  }
+  .main_img_kurs img{
+    width: 21vw;
+  }
+  .footer_img_kurs{
+    width: 15vw;
+    margin-right: 160px;
+  }
+  .footer_kurs{
+    display: flex;
+  }
+  .footer_info_time{
+    display: flex;
+    align-items: center;
+  }
+  h5{
+    font-size: 2vw;
+    margin-bottom: 6px;
+  }
+  .footer_info_kurs{
+    margin-right: 55px;
+  }
+  .footer_info_kurs p{
+    width: 8vw;
+    font-size: 1.1vw;
   }
 }
