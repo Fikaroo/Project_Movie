@@ -107,7 +107,7 @@
         background-color: #000000;
         padding-left: 12vw;
         padding-top: 7vw;
-        padding-bottom: 3vw;
+        padding-bottom: 5vw;
     }
 
     .footer-logo-social {
@@ -133,7 +133,8 @@
     }
 
     .contact p img {
-        width: 3.5vw;
+        width: 3.2vw;
+        margin-right: 2vw;
     }
 
     .contact p{
