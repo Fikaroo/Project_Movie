@@ -83,12 +83,12 @@
     .format-main{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+      
     }
     .format-main-text p{
     font-size: 1.4vw;    
     padding-top: 4vw;
-    padding-right: 3vw;
+    padding-right: 7vw;
      }
      
      }
@@ -112,7 +112,8 @@
        padding-left: 3vw;
         font-size: 1.5vw;
         width: 39vw;
-        height: 39vw;
+        
+       
      
     }
 }
