@@ -14,7 +14,6 @@
         font-family: 'Roboto';
     }
 
-
     .p-kurs-title h1 {
         padding-top: 22vw;
         padding-left: 7vw;
@@ -91,6 +90,7 @@
         font-size: 7vw;
         line-height: 101.38%;
         color: #000000;
+        width: 68vw; /* sonradan elave eledim html kodunda br sildim */
     }
 
     .insan-info {
@@ -142,7 +142,148 @@
 }
 
 /* Tablet */
-@media (min-width: 992px) and (max-width: 1279px) {}
+@media (min-width: 992px) and (max-width: 1279px) {
+
+    .p-kurs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .p-kurs-title h1{
+        padding-top: 17vw;
+        padding-left: 8vw;
+        margin-bottom: 6.5vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4vw;
+        line-height: 101.38%;
+        color: #000000;
+
+    }
+
+    .p-kurs-content{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 6vw;
+    }
+
+    .p-kurs-infos{
+        /* width: 30%; */
+        background: #FFFFFF;
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 2.7vw;
+        margin-right: 2.5vw;
+        margin-bottom: 3vw;
+        height: 23vw;
+    }
+
+    .p-kurs-images img{
+        width: 28vw;
+    }
+
+    .p-kurs-text h1{
+        font-size: 2vw;
+
+    }
+
+    .p-kurs-text {
+        padding-left: 1.5vw;
+        margin-bottom: 1.5vw;
+        margin-top: 0.8vw;
+    }
+
+    .p-kurs-text h1 {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.1vw;
+        line-height: 130%;
+        color: #000000;
+        margin-bottom: 2.3vw;
+        width: 25.5vw;
+    }
+
+    .p-kurs-text p {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.7vw;
+        line-height: 130%;
+        color: #000000;
+    }
+
+    .last p {
+        margin-top: -2.5vw;
+    } 
+
+     .insan {
+        background-color: #EFEFEF;
+        /* display: flex;
+        flex-direction: column;
+        align-content: center; */
+        padding-left: 8.5vw;
+    }
+
+    .insan-title h1 {
+        padding-top: 6.3vw;
+        margin-bottom: 2.5vw;
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 4vw;
+        line-height: 101.38%;
+        color: #000000;
+    }
+
+    .insan-info {
+        background-color: #FFFFFF;
+        border-radius: 2.1vw;
+        width: 55vw;
+        padding-left: 2vw;
+        margin-bottom: 8vw;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    }
+
+    .insan-info-text {
+        width: 48vw;
+        padding-top: 2.8vw;
+        margin-bottom: 0.8vw;
+    }
+
+    .insan-info-text p {
+        font-size: 1.5vw;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .insan-info-in {
+        display: flex;
+        margin-bottom: 2vw;
+    }
+
+    .insan-info-in-photo img {
+        width: 13.2vw;
+    }
+
+    .insan-info-in-name h1 {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.1vw;
+        line-height: 101.38%;
+        padding-top: 3.5vw;
+        margin-bottom: 1.5vw;
+        color: #000000;
+    }
+
+    .insan-info-in-name img {
+        width: 2.2vw;
+    }
+
+
+}
 
 /* Desktop */
 @media (min-width: 1280px) {}
