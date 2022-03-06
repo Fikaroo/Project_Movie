@@ -9,91 +9,78 @@
         padding: 0;
         box-sizing: border-box;
     }
-
+    
     body {
         font-family: roboto;
     }
-
-    .wrapper {
+    .wrapper{
         padding-left: 9vw;
         padding-top: 9vw;
     }
-
-    .format-main p span {
+    .format-main p span{ 
         display: block;
         color: #1E4681;
-        font-style: normal;
+         font-style: normal;
         font-weight: bold;
-        font-size: 3vw;
-
-
+        font-size:3vw;
+       
+ 
     }
-
-    .format-header h1 {
+    .format-header h1{
         font-size: 4vw;
     }
 
 
-    .format-main {
+    .format-main{
         padding-right: 40vw;
     }
 
-    .format-main p {
-        font-size: 1.3vw;
-        padding-top: 8vw;
-
-
+    .format-main p{
+    font-size: 1.3vw;    
+    padding-top: 8vw;
+    
+    
     }
-
-    .bilik h1 {
-        font-family: roboto slab;
-        font-size: 6vw;
-        padding-top: 18vw;
-        padding-bottom: 8vw;
+    .bilik h1{
+    font-family: roboto slab;
+    font-size: 6vw;
+    padding-top: 18vw; 
+    padding-bottom: 8vw;
     }
-
-    .format-header h1 {
-        font-family: roboto slab;
-        font-size: 6vw;
+    .format-header h1{
+    font-family: roboto slab;
+    font-size: 6vw;
     }
-
-    .bilik ul {
-        padding-left: 6vw;
+   
+    .bilik ul{
+       padding-left: 6vw;
         font-size: 2.5vw;
     }
 
 }
-
 /* Tablet */
 @media (min-width: 992px) and (max-width: 1279px) {
-    * {
+    *{
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-
-    body {
-        font-family: roboto;
+    
+    body{
+    font-family: roboto;
     }
-
-    .wrapper {
+    .wrapper{
         padding-left: 9vw;
         padding-top: 9vw;
     }
-
-    .format-header h1 {
-        font-size: 4vw;
-    }
-
-    .format-main p span {
+    .format-main p span{ 
         display: block;
         color: #1E4681;
-        font-style: normal;
+         font-style: normal;
         font-weight: bold;
-        font-size: 1.9vw;
+        font-size:1.9vw;
     }
-
-    .format-main {
+    .format-main{
         display: flex;
         flex-direction: row;
     }
@@ -122,11 +109,6 @@
         padding-bottom: 5vw;
     }
 
-    .bilik ul {
-        padding-left: 3vw;
-        font-size: 1.5vw;
-    }
 }
 
-/* Desktop */
-@media (min-width: 1280px) {}
+
