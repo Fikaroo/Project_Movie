@@ -2,18 +2,18 @@
 body {
   font-family: Roboto;
 }
-@media screen and (min-width: 320px) and (max-width: 992px) {
+@media screen and (min-width: 320px) and (max-width: 991px) {
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-  .footer_img_kurs{
+  .footer_img_kurs {
     display: none;
   }
   .wrapper {
     display: flex;
-    justify-content: center;
+
     padding-left: 9vw;
     padding-top: 9vw;
   }
@@ -113,7 +113,7 @@ body {
   }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1279px) {
+@media screen and (min-width: 992px) and (max-width: 1280px) {
   * {
     margin: 0;
     padding: 0;
@@ -121,7 +121,7 @@ body {
   }
   .wrapper {
     display: flex;
-    /* justify-content: center; */
+    /* justify-content: center;  */
     padding-left: 8.3vw;
     padding-top: 8.3vw;
   }
@@ -184,20 +184,25 @@ body {
   .outhor {
     background: #1e4681;
     color: white;
-    width: 32vw;
+    width: 30vw;
     padding: 11px 15px 7px;
     margin-bottom: 75px;
   }
 
   .comment p {
     margin-bottom: 10px;
-    font-size: 1.7vw;
+    font-size: 1.6vw;
+    font-family: Roboto Slab;
   }
 
   .outhor_name {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 8px;
+  }
+  .outhor_name p {
+    font-size: 1.4vw;
+    font-family: Roboto;
   }
   .header_kurs h1 {
     width: 24vw;
@@ -206,40 +211,41 @@ body {
   .header_kurs {
     margin-bottom: 20px;
   }
-  .main_kurs{
+  .main_kurs {
     display: flex;
   }
-  .main_info_kurs{
+  .main_info_kurs {
     width: 44vw;
     margin-right: 110px;
     margin-bottom: 50px;
   }
-  .main_info_kurs p{
+  .main_info_kurs p {
     font-size: 1.8vw;
   }
-  .main_img_kurs img{
+  .main_img_kurs img {
     width: 21vw;
   }
-  .footer_img_kurs{
+  .footer_img_kurs {
     width: 15vw;
     margin-right: 160px;
   }
-  .footer_kurs{
+  .footer_kurs {
     display: flex;
   }
-  .footer_info_time{
+  .footer_info_time {
     display: flex;
     align-items: center;
   }
-  h5{
+  h5 {
     font-size: 2vw;
     margin-bottom: 6px;
   }
-  .footer_info_kurs{
+  .footer_info_kurs {
     margin-right: 55px;
   }
-  .footer_info_kurs p{
+  .footer_info_kurs p {
     width: 8vw;
     font-size: 1.1vw;
   }
 }
+
