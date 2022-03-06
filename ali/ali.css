@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,18 +9,15 @@
 
 /* Mobile */
 @media (min-width: 320px) and (max-width: 991px) {
-    body{
+    body {
         background-color: #FFFFFF;
         font-family: 'Roboto';
-    } 
+    }
 
-    .p-kurs{
-        display: block;
-    }   
 
-    .p-kurs-title h1{
-        padding-top: 22.5vw;
-        padding-left: 15vw;
+    .p-kurs-title h1 {
+        padding-top: 22vw;
+        padding-left: 7vw;
         margin-bottom: 9.5vw;
         font-family: Roboto Slab;
         font-style: normal;
@@ -30,36 +27,41 @@
         color: #000000;
     }
 
-    .p-kurs-content{
+    .p-kurs-content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .p-kurs-infos{
-        margin-bottom: 6.5vw;
+
+    .p-kurs-infos {
+        margin-bottom: 7vw;
         background: #FFFFFF;
         box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-        border-radius: 7.5%;
-        /* width: 50vw;
-        height: 41vw; */
+        border-radius: 4vw;
+        height: 40vw;
     }
 
-    .p-kurs-images img{
+    .p-kurs-images img {
         width: 50vw;
-        height: 20vw;
     }
 
-    .p-kurs-infos h1{
+    .p-kurs-text {
+        padding-left: 2.5vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .p-kurs-text h1 {
         font-family: Roboto;
         font-style: normal;
         font-weight: bold;
         font-size: 3.7vw;
         line-height: 130%;
         color: #000000;
-
+        margin-bottom: 4vw;
+        width: 45vw;
     }
-    .p-kurs-infos p{
-    
+
+    .p-kurs-text p {
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -68,19 +70,20 @@
         color: #000000;
     }
 
-    .insan{
-        background-color:  #EFEFEF;
+    .last p {
+        margin-top: -4vw;
+    }
+
+    .insan {
+        background-color: #EFEFEF;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: center;
+        padding-left: 7vw;
     }
-    
-    .insan-title{
-        margin-left: -18vw;
-    }
-    
-    .insan-title h1{
-        padding-top:12vw ;
+
+    .insan-title h1 {
+        padding-top: 12vw;
         margin-bottom: 6vw;
         font-family: Roboto Slab;
         font-style: normal;
@@ -90,70 +93,56 @@
         color: #000000;
     }
 
-    .insan-info{
+    .insan-info {
         background-color: #FFFFFF;
-        border-radius: 7%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        border-radius: 3vw;
         width: 82.5vw;
+        padding-left: 5.5vw;
+        margin-bottom: 10vw;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
     }
 
-    .insan-info-text{
+    .insan-info-text {
         width: 65vw;
         padding-top: 5vw;
-
+        margin-bottom: 4vw;
     }
 
-    .insan-info-text p{
+    .insan-info-text p {
         font-size: 2.5vw;
         line-height: 150%;
         color: #000000;
     }
 
-    .insan-info-in{
+    .insan-info-in {
         display: flex;
-    
-
+        margin-bottom: 3.5vw;
     }
 
-    .insan-info-in-photo img{
-        width: 21vw ;
-        height: 22hw ;
-        margin-top: 5.5vw;
+    .insan-info-in-photo img {
+        width: 25vw;
     }
 
-    .insan-info-in{
-        margin-left: -9vw;
-    }
-
-    .insan-info-in-name h1{
+    .insan-info-in-name h1 {
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: bold;
         font-size: 3.7vw;
         line-height: 101.38%;
-
-        padding-top: 10.5vw;
-        padding-right: 3.5vw;
-        margin-bottom:3vw ;
+        padding-top: 5vw;
+        margin-bottom: 4vw;
         color: #000000;
     }
-    .insan-info-in-name img{
-        width:4vw ;
-        height:4.5vw ;
+
+    .insan-info-in-name img {
+        width: 4.2vw;
     }
 
 
 }
 
 /* Tablet */
-@media (min-width: 992px) and (max-width: 1279px) {
-
-}
+@media (min-width: 992px) and (max-width: 1279px) {}
 
 /* Desktop */
-@media (min-width:  1280px) {
-
-}
+@media (min-width: 1280px) {}
