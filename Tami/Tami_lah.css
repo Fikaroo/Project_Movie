@@ -248,4 +248,13 @@ body {
     font-size: 1.1vw;
   }
 }
+@media screen and (min-width:1281px){
+  .wrapper {
+    display: flex;
+    /* justify-content: center;  */
+    padding-left: 8.3vw;
+    padding-top: 8.3vw;
+    background-color: red;
+  }
+}
 
