@@ -87,7 +87,7 @@
         flex-direction: row;
         justify-content: space-evenly;
     }
-
+    
 
     .format-main-text p{
     font-size: 1.4vw;    
@@ -97,18 +97,19 @@
 
     .bilik h1{
     font-family: roboto slab;
-    font-size: 4.3vw;
+    font-size: 3.8vw;
     padding-top: 18vw; 
     padding-bottom: 5vw;
     }
     .format-header h1{
     font-family: roboto slab;
-    font-size: 4vw;
+    font-size: 3.8vw;
+    padding-bottom: 5vw;
     }
    
     .bilik ul{
-       padding-left: 5vw;
-        font-size: 1.9vw;
+       padding-left: 3vw;
+        font-size: 1.5vw;
     }
 }
 
