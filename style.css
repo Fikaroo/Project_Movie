@@ -462,7 +462,7 @@ h4 {
         font-weight: normal;
         font-size: 2.6vw;
         line-height: 101.38%;
-        /* or 10px */
+
         color: #000000;
 
         padding-right: 2vw;
@@ -514,7 +514,6 @@ h4 {
         font-weight: normal;
         font-size: 3vw;
         line-height: 101.38%;
-        /* or 12px */
 
         color: #FFFFFF;
 
@@ -525,7 +524,6 @@ h4 {
         font-weight: normal;
         font-size: 2.5vw;
         line-height: 101.38%;
-        /* or 10px */
 
         color: #FFFFFF;
     }
@@ -663,11 +661,11 @@ h4 {
 
     /*  course section start */
     .course {
-        margin-bottom: 21vw;
+        margin-bottom: 12vw;
     }
 
     .course-container {
-        padding-left: 10vw;
+        padding-left: 8vw;
     }
 
     .course-header {
@@ -737,53 +735,55 @@ h4 {
 
     /* format section start */
     .format {
-        margin-bottom: 21vw;
+        margin-bottom: 15vw;
     }
 
     .format-container {
-        padding-left: 10vw;
+        padding-left: 8vw;
     }
 
     .format-header {
-        margin-bottom: 7vw;
+        margin-bottom: 8.3vw;
     }
 
+    .format-main {
+        display: flex;
+    }
 
     .format-main-box {
-        margin-bottom: 7vw;
+        margin-right: 7.5vw;
     }
 
     .format-main h4 {
         color: #1E4681;
         margin-bottom: 1vw;
+        font-family: 'Roboto';
     }
 
     .format-main-box p {
-        font-size: 2.6vw;
-        width: 50vw;
-        padding-right: 6vw;
+        font-size: 1.3vw;
+        width: 20vw;
     }
 
     /* format section end */
 
     /* knowladge section start */
     .knowladge {
-        margin-bottom: 21vw;
+        margin-bottom: 15vw;
     }
 
     .knowladge-container {
-        padding-left: 10vw;
+        padding-left: 8vw;
     }
 
     .knowladge-header {
-        margin-bottom: 7vw;
+        margin-bottom: 3.5vw;
     }
 
     .knowladge-main-content ul {
-        width: 80vw;
-        padding-left: 5vw;
-        font-size: 3.2vw;
-        line-height: 150%;
+        width: 46vw;
+        padding-left: 2vw;
+        font-size: 1.7vw;
     }
     /* knowladge section end */
 
@@ -792,90 +792,88 @@ h4 {
     /*                Ali section start            */
     /* course-program section start */
     .course-program {
-        margin-bottom: 11vw;
+        margin-bottom: 6.5vw;
     }
 
     .course-program-container {
-        padding-left: 10vw;
+        padding-left: 8vw;
     }
 
     .course-program-header {
-        margin-bottom: 13vw;
+        margin-bottom: 8.6vw;
     }
 
     .cp-main-content {
         display: flex;
-        flex-direction: column;
-        align-items: center
+        flex-wrap: wrap;
     }
 
     .cp-main-box {
-        margin-bottom: 7vw;
-        margin-right: 8vw;
+        margin-bottom: 3vw;
+        margin-right: 2.5vw;
         background: #FFFFFF;
 
         box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.25);
-        border-radius: 4vw;
+        border-radius: 2vw;
 
-        width: 50vw;
-        height: 40vw;
+        width: 27vw;
+        height: 22vw;
     }
 
     .cp-main-box-img img{
-        width: 50vw;
+        width: 27vw;
     }
 
     .cp-main-box-content {
-        padding-left: 2.5vw;
-        margin-bottom: 2.5vw;
+        margin-top: 0.5vw;
+        padding-left: 1.2vw;
     }
 
     .cp-main-box-content h3 {
-        margin-bottom: 4vw  ;
+        margin-bottom: 2.6vw;
     }
 
     .cp-main-box-content p {
-        font-size: 3.2vw;
-        line-height: 130%;
+        font-size: 1.6vw;
 
-        padding-right: 12vw;
+        padding-right: 8vw;
         color: #000000;
     }
 
     .last p {
-        margin-top: -4vw;
+        margin-top: -2.2vw;
     }
     /* course-program section end */
 
     /* course-feedback section start */
     .course-feedback-container {
         background-color: #E5E5E5;
-        padding-left: 10vw;
-        padding-top: 11vw;
-        padding-bottom: 11vw;
+        padding-left: 8vw;
+        padding-top: 6.3vw;
+        padding-bottom: 7.7vw;
     }
 
     .course-feedback-header {
-        margin-bottom: 8vw;
+        margin-bottom: 4vw;
     }
 
     .cf-main-box {
         background-color: #FFFFFF;
-        border-radius: 3vw;
-        width: 82.5vw;
-        height: 70vw;
-        padding-left: 5.5vw;
+        border-radius: 2vw;
+        width: 55vw;
+        height: 31.5vw;
+        padding-left: 3vw;
         box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
     }
 
     .cf-main-box-content {
-        width: 68vw;
-        padding-top: 6vw;
-        margin-bottom: 6vw;
+        width: 48vw;
+        padding-top: 2.7vw;
+        margin-bottom: 2vw;
     }
 
     .cf-main-box-content p {
-        font-size: 2.5vw;
+        font-size: 1.4vw;
         line-height: 150%;
         color: #000000;
     }
@@ -885,17 +883,18 @@ h4 {
     }
 
     .cf-main-box-profile-avatar img {
-        width: 25vw;
+        width: 13vw;
+        margin-right: 2vw;
     }
 
     .cf-main-box-profile-info h3 {
-        padding-top: 5vw;
-        margin-bottom: 4vw;
+        padding-top: 2.4vw;
+        margin-bottom: 2vw;
         color: #000000;
     }
 
     .cf-main-box-profile-info img {
-        width: 4.2vw;
+        width: 2.2vw;
     }
     /* course-feedback section end */
 
@@ -906,32 +905,28 @@ h4 {
     .course-date-container {
         background: #9DC9C8;
 
-        padding-left: 10vw;
-        padding-top: 10vw;
-        padding-bottom: 20vw;
+        padding-left: 8vw;
+        padding-top: 12.3vw;
+        padding-bottom: 12vw;
     }
 
     .course-date-header {
-        margin-bottom: 8vw;
-    }
-
-    .course-date-header h2 {
-        width: 60vw;
+        margin-bottom: 3.7vw;
     }
 
     .course-date-main {
-        margin-bottom: 8vw;
+        margin-bottom: 4.8vw;
     }
 
     .course-date-main p {
-        font-size: 3vw;
+        font-size: 1.7vw;
         line-height: 101.38%;
     }
 
     .course-date-main span {
         display: block;
 
-        font-size: 10vw;
+        font-size: 5.5vw;
         line-height: 101.38%;
 
         color: #000000;
@@ -942,16 +937,16 @@ h4 {
     }
 
     .course-date-footer-box {
-        margin-right: 7vw;
-        width: 38vw;
+        margin-right: 4.8vw;
+        width: 20.4vw;
     }
 
     .course-date-footer-box p span {
         display: block;
 
-        margin-bottom: 2vw;
+        margin-bottom: 0.8vw;
 
-        font-size: 3.2vw;
+        font-size: 1.6vw;
         line-height: 101.38%;
 
         color: #000000;
@@ -960,61 +955,59 @@ h4 {
     .course-date-footer-box p {
         font-style: normal;
         font-weight: normal;
-        font-size: 2.6vw;
+        font-size: 1.2vw;
         line-height: 101.38%;
-        /* or 10px */
+
         color: #000000;
 
-        padding-right: 2vw;
     }
     /* course-date section end */
     /* main section end */
 
     /* footer section start */
     .footer-container {
-        display: flex;
-        flex-direction: column;
         background-color: #000000;
-        padding-left: 10vw;
+        padding-left: 8vw;
         padding-top: 7vw;
         padding-bottom: 5vw;
     }
 
-    .footer-logo-social {
-        margin-bottom: 12vw;
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10vw;
     }
 
     .footer-logo-social .logo {
-        margin-bottom: 3vw;
+        margin-bottom: 2vw;
     }
 
     .footer-logo-social .logo img {
-        width: 15vw;
+        width: 8vw;
     }
 
 
     .footer-logo-social .social a img {
-        width: 4vw;
-        margin-right: 2vw;
+        width: 2.3vw;
+        margin-right: 1.7vw;
     }
 
     .contact {
-        margin-bottom: 12vw;
+        padding-right: 13vw;
     }
 
     .contact p img {
-        width: 3.2vw;
+        width: 1.8vw;
         margin-right: 2vw;
     }
 
     .contact p {
-        padding-bottom: 3vw;
+        padding-bottom: 1.6vw;
 
         font-style: normal;
         font-weight: normal;
-        font-size: 3vw;
+        font-size: 1.6vw;
         line-height: 101.38%;
-        /* or 12px */
 
         color: #FFFFFF;
 
@@ -1023,9 +1016,8 @@ h4 {
     .corp {
         font-style: normal;
         font-weight: normal;
-        font-size: 2.5vw;
+        font-size: 1.2vw;
         line-height: 101.38%;
-        /* or 10px */
 
         color: #FFFFFF;
     }
