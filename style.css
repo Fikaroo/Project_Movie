@@ -536,21 +536,37 @@ h4 {
 
 /* Tablet */
 @media (min-width: 992px) and (max-width: 1279px) {
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    h2 {
+        font-size: 3.8vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    h4 {
+        font-size: 1.8vw;
+    }
     /*       Tamerlan section start        */
 
     /*        header start          */
     .header-container {
-        padding-top: 5vw;
-        padding-left: 10vw;
+        padding-top: 2.5vw;
+        padding-left: 8vw;
         margin-bottom: 2vw;
     }
 
     .header-logo {
-        margin-bottom: 12vw;
+        margin-bottom: 7vw;
     }
 
     .header-logo img {
-        width: 14vw;
+        width: 8vw;
     }
 
     .header-info {
@@ -558,16 +574,16 @@ h4 {
     }
 
     .header-info-content {
-        margin-right: 7vw;
+        margin-right: 3vw;
     }
 
     .header-info-content p {
-        font-size: 2.5vw;
+        font-size: 1.5vw;
     }
 
 
     .header-info-content img {
-        width: 2.7vw;
+        width: 1.7vw;
         margin-right: 1vw;
     }
 
@@ -576,44 +592,52 @@ h4 {
     /*        main start           */
     /* movie section start      */
     .movie {
-        margin-bottom: 21vw;
+        margin-bottom: 8vw;
     }
 
     .movie-container {
-        padding-left: 10vw;
+        padding-left: 8vw;
     }
 
     .movie-header {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-end;
-        margin-bottom: 10.5vw;
+        margin-bottom: 6vw;
+    }
+
+    .movie-header-content {
+        margin-right: 10vw;
     }
 
     .movie-header-content h1 {
-        margin-bottom: 3.5vw;
+        width: 44vw;
+        margin-bottom: 3vw;
     }
 
     .movie-header-content p {
-        font-size: 2.6vw;
-        width: 56vw;
+        font-size: 1.5vw;
+        width: 31vw;
     }
 
     .movie-header-img {
-        margin-right: 8.5vw;
+        margin-right: 17vw;
     }
 
     .movie-header-img img {
-        width: 38vw;
+        width: 22vw;
     }
 
+    .movie-main {
+        display: flex;
+        justify-content: center;
+        padding-right: 15vw;
+    }
 
     .movie-main-comment {
-        width: 60vw;
-        height: 25vw;
+        width: 34vw;
+        height: 14vw;
         color: #FFFFFF;
         background: #1E4681;
-        border-radius: 0.6vw;
+        border-radius: 0.3vw;
 
     }
 
@@ -621,16 +645,16 @@ h4 {
         font-family: Roboto Slab;
         font-style: normal;
         font-weight: normal;
-        width: 53vw;
-        padding: 2.4vw 3.2vw 0 3.2vw;
-        font-size: 2.7vw;
+        width: 32vw;
+        padding: 1.4vw 1.5vw 0 2vw;
+        font-size: 1.7vw;
     }
 
     .author {
-        font-size: 2.7vw;
+        font-size: 1.4vw;
         line-height: 130%;
-        padding-right: 3vw;
-        margin-top: 2vw;
+        padding-right: 1.2vw;
+        margin-top: 0.4vw;
 
         text-align: right;
     }
@@ -650,53 +674,59 @@ h4 {
         margin-bottom: 5.5vw;
     }
 
+    .course-main {
+        display: flex;
+        margin-bottom: 5.2vw;
+    }
 
     .course-main-content {
-        width: 82vw;
-        margin-bottom: 4.2vw;
+        width: 46vw;
+        margin-right: 14vw;
     }
 
     .course-main-content p {
-        font-size: 3.2vw;
+        font-size: 1.7vw;
     }
 
     .course-main-content p.course-main-content-first {
-        margin-bottom: 5.5vw;
+        margin-bottom: 2.8vw;
     }
 
     .course-main-img {
         display: flex;
         justify-content: center;
         padding-right: 10vw;
-        margin-bottom: 12vw;
     }
 
     .cameraman {
-        width: 46vw;
+        width: 21.8vw;
+    }
+
+    .course-footer-container {
+        display: flex;
     }
 
     .course-footer-img {
-        display: none;
+        width: 16vw;
+        margin-right: 13vw;
     }
 
     .course-footer-content {
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
     }
 
     .course-footer-content-box {
-        margin-bottom: 9vw;
-        margin-right: 48px;
+        margin-right: 6.6vw;
     }
 
     .course-footer-content-box h4 {
-        margin-bottom: 0.2vw;
+        margin-bottom: 0.5vw;
     }
 
     .course-footer-content-box p {
-        width: 23vw;
-        font-size: 2.6vw;
-        padding-right: 2vw;
+        width: 10.5vw;
+        font-size: 1.3vw;
     }
 
     /* course section end */
