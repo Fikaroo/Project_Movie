@@ -233,7 +233,7 @@ h4 {
     /*          Tamerlan section end               */
   }
   /* TABLET */
-  @media (min-width: 992px) and (max-width: 1279px) {
+  @media (min-width: 992px) and (max-width: 1281px) {
 
     h1 {
         font-size: 5.5vw;
