@@ -1,0 +1,62 @@
+ /* format section start */
+ .format {
+    margin-bottom: 10vw;
+}
+.format-header h2{
+    font-size: 4.7vw;
+}
+
+.format-container {
+    padding-left: 10vw;
+}
+
+.format-header {
+    margin-bottom: 7vw;
+}
+.format-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.format-main-box {
+    margin-bottom: 7vw;
+}
+
+.format-main h4 {
+    color: #1E4681;
+    margin-bottom: 1vw;
+    font-size: 2.8vw;
+}
+
+.format-main-box p {
+    font-size: 1.5vw;
+    width: 20vw;
+    padding-right: 6vw;
+}
+
+/* format section end */
+
+/* knowladge section start */
+.knowladge {
+    margin-bottom: 21vw;
+}
+.knowladge h2{
+    font-size: 4.7vw;
+}
+
+.knowladge-container {
+    padding-left: 10vw;
+}
+
+.knowladge-header {
+    margin-bottom: 7vw;
+}
+
+.knowladge-main-content ul {
+    width: 80vw;
+    padding-left: 3vw;
+    font-size: 2.2vw;
+    line-height: 150%;
+  
+}
+/* knowladge section end */
