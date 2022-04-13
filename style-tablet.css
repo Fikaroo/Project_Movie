@@ -1,0 +1,503 @@
+/* Tablet */
+@media (min-width: 992px) and (max-width: 1279px) {
+
+    h1 {
+        font-size: 5.5vw;
+    }
+
+    h2 {
+        font-size: 3.8vw;
+    }
+
+    h3 {
+        font-size: 2vw;
+    }
+
+    h4 {
+        font-size: 1.8vw;
+    }
+
+    /*       Tamerlan section start        */
+
+    /*        header start          */
+    .header-container {
+        padding-top: 2.5vw;
+        padding-left: 8vw;
+        margin-bottom: 2vw;
+    }
+
+    .header-logo {
+        margin-bottom: 7vw;
+    }
+
+    .header-logo img {
+        width: 8vw;
+    }
+
+    .header-info {
+        display: flex;
+    }
+
+    .header-info-content {
+        margin-right: 3vw;
+    }
+
+    .header-info-content p {
+        font-size: 1.5vw;
+    }
+
+
+    .header-info-content img {
+        width: 1.7vw;
+        margin-right: 1vw;
+    }
+
+    /*        header end          */
+
+    /*        main start           */
+    /* movie section start      */
+    .movie {
+        margin-bottom: 8vw;
+    }
+
+    .movie-container {
+        padding-left: 8vw;
+    }
+
+    .movie-header {
+        display: flex;
+        margin-bottom: 6vw;
+    }
+
+    .movie-header-content {
+        margin-right: 10vw;
+    }
+
+    .movie-header-content h1 {
+        width: 44vw;
+        margin-bottom: 3vw;
+    }
+
+    .movie-header-content p {
+        font-size: 1.5vw;
+        width: 31vw;
+    }
+
+    .movie-header-img {
+        margin-right: 17vw;
+    }
+
+    .movie-header-img img {
+        width: 22vw;
+    }
+
+    .movie-main {
+        display: flex;
+        justify-content: center;
+        padding-right: 15vw;
+    }
+
+    .movie-main-comment {
+        width: 34vw;
+        height: 14vw;
+        color: #FFFFFF;
+        background: #1E4681;
+        border-radius: 0.3vw;
+
+    }
+
+    .content {
+        font-family: Roboto Slab;
+        font-style: normal;
+        font-weight: normal;
+        width: 32vw;
+        padding: 1.4vw 1.5vw 0 2vw;
+        font-size: 1.7vw;
+    }
+
+    .author {
+        font-size: 1.4vw;
+        line-height: 130%;
+        padding-right: 1.2vw;
+        margin-top: 0.4vw;
+
+        text-align: right;
+    }
+
+    /*  movie section end */
+
+    /*  course section start */
+    .course {
+        margin-bottom: 12vw;
+    }
+
+    .course-container {
+        padding-left: 8vw;
+    }
+
+    .course-header {
+        margin-bottom: 5.5vw;
+    }
+
+    .course-main {
+        display: flex;
+        margin-bottom: 5.2vw;
+    }
+
+    .course-main-content {
+        width: 46vw;
+        margin-right: 14vw;
+    }
+
+    .course-main-content p {
+        font-size: 1.7vw;
+    }
+
+    .course-main-content p.course-main-content-first {
+        margin-bottom: 2.8vw;
+    }
+
+    .course-main-img {
+        display: flex;
+        justify-content: center;
+        padding-right: 10vw;
+    }
+
+    .cameraman {
+        width: 21.8vw;
+    }
+
+    .course-footer-container {
+        display: flex;
+    }
+
+    .course-footer-img {
+        width: 16vw;
+        margin-right: 13vw;
+    }
+
+    .course-footer-content {
+        display: flex;
+        align-items: center;
+    }
+
+    .course-footer-content-box {
+        margin-right: 6.6vw;
+    }
+
+    .course-footer-content-box h4 {
+        margin-bottom: 0.5vw;
+    }
+
+    .course-footer-content-box p {
+        width: 10.5vw;
+        font-size: 1.3vw;
+    }
+
+    /* course section end */
+
+    /*          Tamerlan section end               */
+
+    /*          Fidan section start                */
+
+    /* format section start */
+    .format {
+        margin-bottom: 15vw;
+    }
+
+    .format-container {
+        padding-left: 8vw;
+    }
+
+    .format-header {
+        margin-bottom: 8.3vw;
+    }
+
+    .format-main {
+        display: flex;
+    }
+
+    .format-main-box {
+        margin-right: 7.5vw;
+    }
+
+    .format-main h4 {
+        color: #1E4681;
+        margin-bottom: 1vw;
+        font-family: 'Roboto';
+    }
+
+    .format-main-box p {
+        font-size: 1.3vw;
+        width: 20vw;
+    }
+
+    /* format section end */
+
+    /* knowladge section start */
+    .knowladge {
+        margin-bottom: 15vw;
+    }
+
+    .knowladge-container {
+        padding-left: 8vw;
+    }
+
+    .knowladge-header {
+        margin-bottom: 3.5vw;
+    }
+
+    .knowladge-main-content ul {
+        width: 46vw;
+        padding-left: 2vw;
+        font-size: 1.7vw;
+    }
+
+    /* knowladge section end */
+
+    /*                Fidan section end           */
+
+    /*                Ali section start            */
+    /* course-program section start */
+    .course-program {
+        margin-bottom: 6.5vw;
+    }
+
+    /* .course-program-container {
+        padding-left: 8vw;
+    } */
+
+
+
+    .course-program-header {
+        padding-left: 8vw;
+        margin-bottom: 8.6vw;
+    }
+
+    .cp-main-content {
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 5.8vw;
+    }
+
+    .cp-main-box {
+        margin-bottom: 3vw;
+        margin-right: 2.5vw;
+        background: #FFFFFF;
+
+        box-shadow: 1vw 1vw 3vw rgba(0, 0, 0, 0.25);
+        border-radius: 2vw;
+
+        width: 27vw;
+        height: 22vw;
+    }
+
+    .cp-main-box-img img {
+        width: 27vw;
+    }
+
+    .cp-main-box-content {
+        margin-top: 0.5vw;
+        padding-left: 1.2vw;
+    }
+
+    .cp-main-box-content h3 {
+        margin-bottom: 2.6vw;
+    }
+
+    .cp-main-box-content p {
+        font-size: 1.6vw;
+
+        padding-right: 8vw;
+        color: #000000;
+    }
+
+    .last p {
+        margin-top: -2.2vw;
+    }
+
+    /* course-program section end */
+
+    /* course-feedback section start */
+    .course-feedback-container {
+        background-color: #E5E5E5;
+        padding-left: 8vw;
+        padding-top: 6.3vw;
+        padding-bottom: 7.7vw;
+    }
+
+    .course-feedback-header {
+        margin-bottom: 4vw;
+    }
+
+    .cf-main-box {
+        background-color: #FFFFFF;
+        border-radius: 2vw;
+        width: 55vw;
+        height: 31.5vw;
+        padding-left: 3vw;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    }
+
+    .cf-main-box-content {
+        width: 48vw;
+        padding-top: 2.7vw;
+        margin-bottom: 2vw;
+    }
+
+    .cf-main-box-content p {
+        font-size: 1.4vw;
+        line-height: 150%;
+        color: #000000;
+    }
+
+    .cf-main-box-profile {
+        display: flex;
+    }
+
+    .cf-main-box-profile-avatar img {
+        width: 13vw;
+        margin-right: 2vw;
+    }
+
+    .cf-main-box-profile-info h3 {
+        padding-top: 2.4vw;
+        margin-bottom: 2vw;
+        color: #000000;
+    }
+
+    .cf-main-box-profile-info img {
+        width: 2.2vw;
+    }
+
+    /* course-feedback section end */
+
+    /*              Ali section end         */
+
+    /*              Fuad section start    */
+    /* course-date section start */
+    .course-date-container {
+        background: #9DC9C8;
+
+        padding-left: 8vw;
+        padding-top: 12.3vw;
+        padding-bottom: 12vw;
+    }
+
+    .course-date-header {
+        margin-bottom: 3.7vw;
+    }
+
+    .course-date-main {
+        margin-bottom: 4.8vw;
+    }
+
+    .course-date-main p {
+        font-size: 1.7vw;
+        line-height: 101.38%;
+    }
+
+    .course-date-main span {
+        display: block;
+
+        font-size: 5.5vw;
+        line-height: 101.38%;
+
+        color: #000000;
+    }
+
+    .course-date-footer {
+        display: flex;
+    }
+
+    .course-date-footer-box {
+        margin-right: 4.8vw;
+        width: 20.4vw;
+    }
+
+    .course-date-footer-box p span {
+        display: block;
+
+        margin-bottom: 0.8vw;
+
+        font-size: 1.6vw;
+        line-height: 101.38%;
+
+        color: #000000;
+    }
+
+    .course-date-footer-box p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        line-height: 101.38%;
+
+        color: #000000;
+
+    }
+
+    /* course-date section end */
+    /* main section end */
+
+    /* footer section start */
+    .footer-container {
+        background-color: #000000;
+        padding-left: 8vw;
+        padding-top: 7vw;
+        padding-bottom: 5vw;
+    }
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10vw;
+    }
+
+    .footer-logo-social .logo {
+        margin-bottom: 2vw;
+    }
+
+    .footer-logo-social .logo img {
+        width: 8vw;
+    }
+
+
+    .footer-logo-social .social a img {
+        width: 2.3vw;
+        margin-right: 1.7vw;
+    }
+
+    .contact {
+        padding-right: 13vw;
+    }
+
+    .contact p img {
+        width: 1.8vw;
+        margin-right: 2vw;
+    }
+
+    .contact p {
+        padding-bottom: 1.6vw;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.6vw;
+        line-height: 101.38%;
+
+        color: #FFFFFF;
+
+    }
+
+    .corp {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2vw;
+        line-height: 101.38%;
+
+        color: #FFFFFF;
+    }
+
+    /* footer section end  */
+    /*              Fuad section end             */
+
+}
